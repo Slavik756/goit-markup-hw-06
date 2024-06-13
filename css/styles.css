@@ -794,3 +794,14 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
 }
+@media (min-width: 768px) {
+    /* Styles */
+}
+
+/* Styles for screens 1158px and above */
+@media (min-width: 1158px) {
+    /* Styles */
+}
+@media (min-resolution: 192dpi) {
+    /* High-resolution styles */
+}
