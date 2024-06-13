@@ -81,31 +81,12 @@ img {
     
 }
 
-
-
 .address {
     font-style: normal;
     margin-left: auto;
     display: none;
 }
 
-
-
-.address-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address-link:hover {
-    color: #404bbf;
-}
-
-.address-link:focus {
-    color: #404bbf;
-}
 .open-menu-btn {
     padding: 0;
     line-height: 0;
@@ -114,17 +95,18 @@ img {
     border: none;
 }
 @media screen and (min-width: 768px) { 
-    .menu {
-    display: flex;
-    gap: 40px;
-    }
+    
     .open-menu-btn {
         display: none;
     }
     .logo-link {
         margin-right: 120px;
     }
-        .nav-link {
+    .menu {
+            display: flex;
+            gap: 40px;
+    }
+    .nav-link {
             color: #2e2f42;
             font-size: 16px;
             font-weight: 500;
@@ -133,20 +115,20 @@ img {
             padding: 24px 0;
             display: block;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
+    }
     
         .nav-link:hover,
         .nav-link:focus {
             color: #404bbf;
-        }
+    }
     
-        .current {
+    .current {
             position: relative;
             color: #404BBF;
     
-        }
+    }
     
-        .current::after {
+    .current::after {
             content: "";
             position: absolute;
             left: 0;
@@ -155,7 +137,44 @@ img {
             border-radius: 2px;
             height: 4px;
             width: 100%;
-        }
+    }
+    .address {
+        display: block;
+    }
+    .address-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+    .address-link {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        color: #434455;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .address-link:hover {
+        color: #404bbf;
+    }
+    
+    .address-link:focus {
+        color: #404bbf;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .logo-link {
+        margin-right: 76px;
+    }
+
+    .address-cont {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .address-link {
+        font-size: 16px;
+        line-height: 1.5;
+    }
 }
 
 .page {
