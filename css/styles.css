@@ -57,11 +57,7 @@ img {
         padding: 0 15px;
     }
 }
-@media (min-resolution: 192dpi) {
-    .content-list-title {
-        background-image: url('photo@2x.jpg');
-    }
-}
+
 .nav {
     display: flex;
     align-items: center;
