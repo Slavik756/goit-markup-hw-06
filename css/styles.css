@@ -40,13 +40,7 @@ img {
     padding: 0 16px;
     margin: 0 auto;
 }
-@media screen and (min-width: 320px) {
-    .container {
-        max-width: 320px;
-        padding: 10px;
-       
-    }
-}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -109,7 +103,7 @@ img {
             text-align: center;
             letter-spacing: 0.02em;
             color: #ffffff;
-            max-width: 496px;
+            max-width: 320px;
             display: block;
             margin-bottom: 48px;
             margin-right: auto;
@@ -138,7 +132,7 @@ img {
             line-height: 1.5;
             letter-spacing: 0.02em;
             padding: 24px 0;
-            display: block;
+            display: none;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
@@ -164,10 +158,10 @@ img {
             width: 100%;
     }
     .address {
-        display: block;
+        display: none;
     }
     .address-cont {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 12px;
     }
@@ -232,7 +226,7 @@ img {
     border: none;
     border-radius: 4px;
     display: flex;
-    display: block;
+    display: none;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -253,7 +247,7 @@ img {
 .content-list {
     display: flex;
     gap: 24px;
-
+    display: none;
 }
 
 .icon-container {
@@ -720,7 +714,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--paragraph-color, #8e8f99);
-    display: block;
+    display: none;
     margin-bottom: 4px;
 
 }
@@ -836,7 +830,7 @@ img {
 }
 
 .button-xyz {
-    display: block;
+    display: none;
     width: 169px;
     height: 56px;
     margin: auto;
