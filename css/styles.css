@@ -44,7 +44,7 @@ img {
     .container {
         max-width: 320px;
         padding: 10px;
-        font-size: 1.5em;
+       
     }
 }
 @media screen and (min-width: 768px) {
@@ -102,6 +102,22 @@ img {
     cursor: pointer;
     border: none;
 }
+@media screen and (min-width: 320px) {
+    .page-title {
+            font-size: 1.5em;
+            line-height: 1.07;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+            max-width: 496px;
+            display: block;
+            margin-bottom: 48px;
+            margin-right: auto;
+            margin-left: auto;
+    
+        }
+}
+
 @media screen and (min-width: 768px) { 
     
     .open-menu-btn {
@@ -200,19 +216,7 @@ img {
 }
 
 
-.page-title {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    max-width: 496px;
-    display: block;
-    margin-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
 
-}
 
 .button {
     background-color: #4D5AE5;
