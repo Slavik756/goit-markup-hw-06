@@ -207,6 +207,11 @@ img {
 }
 }
 @media screen and (min-width: 1158px) {
+    .menu {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
     .logo-link {
         margin-right: 76px;
     }
@@ -219,6 +224,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
     }
+
         .icon-container {
             display: flex;
             align-items: center;
@@ -229,6 +235,30 @@ img {
             border: 1px solid #8e8f99;
             margin-bottom: 8px;
         }
+        .content-main {
+            width: calc((100% - 72px) / 4);
+    
+        }
+                .content-subtitle {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;
+                    font-weight: bold;
+                    text-align: left;
+                    margin-bottom: 8px;
+                }
+        
+        
+                .content-info {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #434455;
+                    text-align: left;
+                    margin-bottom: 8px;
+                }
 }
 
 .page {
@@ -326,14 +356,11 @@ img {
     fill: #f4f4fd;
 }
 
-.content-main {
-    width: calc((100% - 72px) / 4);
 
-}
 
 .content-subtitle {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -488,11 +515,11 @@ img {
 .footer-cotainer {
     display: flex;
     align-items: baseline;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .auxiliary {
-    
+    margin-right: 120px;
 }
 
 .footer-link {
@@ -525,6 +552,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-right: 120px;
 }
 
 .ul-footer-title {
@@ -580,7 +608,7 @@ img {
 }
 
 .div-form-footer {
-    margin-left: auto;
+   
     margin-right: 0;
 }
 
@@ -596,7 +624,7 @@ img {
 .form-footer {
     display: flex;
     gap: 24px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .input-form-footer {
