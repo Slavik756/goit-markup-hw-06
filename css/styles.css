@@ -37,13 +37,15 @@ img {
 
 .container {
     max-width: 320px;
-    padding: 0 16px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        padding: 0 15px;
+
     }
 }
 @media (min-width: 1158px) {
@@ -79,7 +81,7 @@ img {
 }
 
 .menu {
-    display: none;
+    display: flex;
     
 }
 
@@ -161,7 +163,7 @@ img {
         display: none;
     }
     .address-cont {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 12px;
     }
@@ -247,7 +249,7 @@ img {
 .content-list {
     display: flex;
     gap: 24px;
-    display: none;
+    
 }
 
 .icon-container {
