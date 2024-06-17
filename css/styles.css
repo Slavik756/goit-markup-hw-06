@@ -746,7 +746,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 496px;
+    max-width: 216px;
     display: block;
     margin-bottom: 48px;
     margin-right: auto;
@@ -803,80 +803,90 @@ img {
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-        .nav-link:hover,
-        .nav-link:focus {
-            color: #404bbf;
-        }
+    .nav-link:hover,
+    .nav-link:focus {
+    color: #404bbf;
+    }
     
-        .current {
-            position: relative;
-            color: #404BBF;
+    .current {
+    position: relative;
+    color: #404BBF;
+    }
     
-        }
+    .current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404BBF;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+    }
+    .address {
+    display: block;
+    }
+    .address-cont {
+    display: flex;
+    flex-direction:column ;
+    gap: 12px;
+    }
+    .address-link {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
     
-        .current::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -1px;
-            background-color: #404BBF;
-            border-radius: 2px;
-            height: 4px;
-            width: 100%;
+    .address-link:hover {
+    color: #404bbf;
+    }
     
-    
-        }
-        .address {
-                    display: block;
-        }
-        .address-cont {
-            display: flex;
-            flex-direction:column ;
-            gap: 12px;
-        }
-        .address-link {
-            font-size: 12px;
-            line-height: 1.16;
-            letter-spacing: 0.02em;
-            color: #434455;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-    
-        .address-link:hover {
-            color: #404bbf;
-        }
-    
-        .address-link:focus {
-            color: #404bbf;
-        }
+    .address-link:focus {
+    color: #404bbf;
+    }
+    .page-title {
+    max-width: 496px;
+    }
  }
 
  /* Десктопная версия */
  @media screen and (min-width: 1158px) {
-     body {
+    body {
         font-family: "Roboto", sans-serif;
-            color: #434455;
-            background-color: #FFFFFF;
-         background-image: image-set(url('teamcard2@2x 1x') 1x,
-                 url('teamcard2@2x 1x') 2x);
-     }
-                .content-list-title {
-                    background-color: #FFFFFF;
-                    width: calc((100% - 72px) / 4);
-                    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-                    border-radius: 0px 0px 4px 4px;
-                }
-        .footer-cotainer {
-            display: flex;
-            
-            align-items: baseline;
+        color: #434455;
+        background-color: #FFFFFF;
+        background-image: image-set(url('teamcard2@2x 1x') 1x,
+        url('teamcard2@2x 1x') 2x);
+    }
+        .content-list-title {
+        background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
         }
-                .container {
-                    width: 1158px;
-                    
-                    padding: 0 15px;
-        
-        
-        
-                }
+        .footer-cotainer {
+        display: flex;
+        align-items: baseline;
+        }
+        .container {
+        width: 1158px;
+        padding: 0 15px;
+        }
+        .logo-link {
+        margin-right: 76px;
+        }
+        .address-cont {
+        flex-direction: row;  
+        gap: 40px;  
+        }
+        .address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        }
+        .page-title {
+        max-width: 496px;
+        }
  }
+ 
