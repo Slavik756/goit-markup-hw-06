@@ -794,3 +794,25 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
 }
+ @media (max-width: 767px) {
+     body {
+         background-image: image-set(url('path/to/mobile-background@1x.jpg') 1x,
+                 url('path/to/mobile-background@2x.jpg') 2x);
+     }
+ }
+
+ /* Планшетная версия */
+ @media (min-width: 768px) and (max-width: 1024px) {
+     body {
+         background-image: image-set(url('path/to/tablet-background@1x.jpg') 1x,
+                 url('path/to/tablet-background@2x.jpg') 2x);
+     }
+ }
+
+ /* Десктопная версия */
+ @media (min-width: 1158px) {
+     body {
+         background-image: image-set(url('path/to/desktop-background@1x.jpg') 1x,
+                 url('path/to/desktop-background@2x.jpg') 2x);
+     }
+ }
