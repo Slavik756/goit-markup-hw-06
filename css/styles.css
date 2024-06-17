@@ -59,11 +59,10 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     padding: 17px 0;
-}
-
-.logo-cont {
     margin-right: 76px;
 }
+
+
 
 .logo {
     color: #2e2f42;
@@ -74,63 +73,17 @@ img {
     
 }
 
-.nav-link {
-    color: #2e2f42;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-.current {
-    position: relative;
-    color: #404BBF;
-
-}
-
-.current::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    background-color: #404BBF;
-    border-radius: 2px;
-    height: 4px;
-    width: 100%;
-
-
-}
 
 .address {
     font-style: normal;
+    margin-left: auto;
     display: none;
 }
 
 
 
-.address-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address-link:hover {
-    color: #404bbf;
-}
-
-.address-link:focus {
-    color: #404bbf;
-}
 .open-menu-btn {
     padding: 0;
     line-height: 0;
@@ -826,11 +779,76 @@ img {
      }
           .container {
               max-width: 768px;
-             
-    
-    
-    
           }
+                  
+    
+    .open-menu-btn {
+        display: none;
+    }
+    .logo-link {
+        margin-right: 120px;
+    }
+        .address-cont {
+            display: flex;
+            gap: 40px;
+        }
+        .nav-link {
+            color: #2e2f42;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            padding: 24px 0;
+            display: block;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+        .nav-link:hover,
+        .nav-link:focus {
+            color: #404bbf;
+        }
+    
+        .current {
+            position: relative;
+            color: #404BBF;
+    
+        }
+    
+        .current::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            background-color: #404BBF;
+            border-radius: 2px;
+            height: 4px;
+            width: 100%;
+    
+    
+        }
+        .address {
+                    display: block;
+        }
+        .address-cont {
+            display: flex;
+            flex-direction:column ;
+            gap: 12px;
+        }
+        .address-link {
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.02em;
+            color: #434455;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+        .address-link:hover {
+            color: #404bbf;
+        }
+    
+        .address-link:focus {
+            color: #404bbf;
+        }
  }
 
  /* Десктопная версия */
