@@ -198,29 +198,30 @@ img {
 }
 
 .content-main {
-    width: calc((100% - 72px) / 4);
-
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        width: 288px;
 }
 
 .content-subtitle {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 8px;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
 }
 
 
 .content-info {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
-    margin-bottom: 8px;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
 
 .social-list-item {
@@ -882,6 +883,10 @@ img {
         row-gap: 48px;
         
         }
+        .content-main {
+            width: calc((100% - 72px) / 4);
+    
+        }
         .content-subtitle {
             font-weight: 500;
             font-size: 20px;
@@ -892,6 +897,14 @@ img {
             text-align: center;
             margin-bottom: 8px;
         }
+                .content-info {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #434455;
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
         .form-footer {
             display: flex;
             gap: 24px;
@@ -907,6 +920,14 @@ img {
         background-image: image-set(url('teamcard2@2x 1x') 1x,
         url('teamcard2@2x 1x') 2x);
     }
+        .content-info {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            text-align: center;
+            margin-bottom: 8px;
+        }
         .content-list-title {
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
@@ -995,6 +1016,9 @@ img {
         border-radius: 4px;
         border: 1px solid #8e8f99;
         margin-bottom: 8px;
+        }
+        .content-main {
+            width: calc((100% - 72px) / 4);
         }
         .content-subtitle {
         font-weight: 500;
