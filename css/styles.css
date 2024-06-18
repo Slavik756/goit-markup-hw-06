@@ -905,9 +905,10 @@ img {
                     text-align: center;
                     margin-bottom: 8px;
                 }
+
         .form-footer {
-            display: flex;
-            gap: 24px;
+        display: flex;
+        gap: 24px;
         }
 }
 
@@ -920,14 +921,7 @@ img {
         background-image: image-set(url('teamcard2@2x 1x') 1x,
         url('teamcard2@2x 1x') 2x);
     }
-        .content-info {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
-            text-align: center;
-            margin-bottom: 8px;
-        }
+       
         .content-list-title {
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
@@ -1020,6 +1014,14 @@ img {
         .content-main {
             width: calc((100% - 72px) / 4);
         }
+                 .content-info {
+                     font-size: 16px;
+                     line-height: 1.5;
+                     letter-spacing: 0.02em;
+                     color: #434455;
+                     text-align: center;
+                     margin-bottom: 8px;
+                 }
         .content-subtitle {
         font-weight: 500;
         font-size: 20px;
