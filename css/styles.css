@@ -140,20 +140,13 @@ img {
 }
 
 .content-list {
-    display: flex;
-    gap: 24px;
+    
 
 }
 
 .icon-container {
     display: none;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    border: 1px solid #8e8f99;
-    margin-bottom: 8px;
+    
 }
 
 
@@ -257,11 +250,7 @@ img {
     justify-content: center;
 }
 
-.foto-list {
-    display: flex;
-    gap: 24px;
 
-}
 
 .content-list-title {
     background-color: #FFFFFF;
@@ -848,6 +837,15 @@ img {
         .page-title {
             max-width: 496px;
             margin-bottom: 48px;
+        }
+        .content-list {
+            display: flex;
+            gap: 24px;
+    
+        }
+        .foto-list {
+        display: flex;
+        gap: 24px;
         }
  }
 
