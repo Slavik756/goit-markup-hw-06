@@ -201,8 +201,8 @@ img {
 }
 
 .content-subtitle {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -856,7 +856,17 @@ img {
         row-gap: 48px;
         
         }
- }
+        .content-subtitle {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+}
 
  /* Десктопная версия */
  @media screen and (min-width: 1158px) {
@@ -905,5 +915,15 @@ img {
         border: 1px solid #8e8f99;
         margin-bottom: 8px;
         }
+                .content-subtitle {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
  }
  
