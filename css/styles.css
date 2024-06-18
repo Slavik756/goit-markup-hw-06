@@ -249,7 +249,13 @@ img {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-
+.foto-list {
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 72px;
+}
 .foto-list-icon {
     display: flex;
     gap: 24px;
