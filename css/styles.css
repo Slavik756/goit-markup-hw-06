@@ -140,8 +140,11 @@ img {
 }
 
 .content-list {
-    
-
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 72px;
 }
 
 .icon-container {
