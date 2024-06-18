@@ -432,11 +432,12 @@ img {
 .auxiliary {
     width: 288px;
     height: 112px;
+    text-align: center;
 }
 .Socialmedia {
     width: 208px;
     height: 80px;
-    margin-top: auto;
+    padding-top: 75px;
 }
 
 .footer-link {
@@ -469,7 +470,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-   
+   margin-left: auto;
 }
 
 .ul-footer-title {
@@ -527,7 +528,7 @@ img {
 .div-form-footer {
     margin-left: auto;
     margin-right: 0;
-    margin-top: auto;
+    padding: 70px ;
     width: 288px;
     height: 136px;
 }
