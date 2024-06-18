@@ -279,11 +279,10 @@ img {
 }
 
 .portfolio-info {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-
+    max-width: 320px;
+    
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 
@@ -849,6 +848,13 @@ img {
         .foto-list {
         display: flex;
         gap: 24px;
+        }
+        .portfolio-info {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+        
         }
  }
 
