@@ -915,15 +915,51 @@ img {
         }
                  .content-list-title {
                      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                             rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
+                            rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)), url('..images/meditation@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/online@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/payment@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/screen@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/taxi@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/teamcard1@2.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/teamcard2@2x.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/teamcard3@2x.jpg');
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)), url('..images/teamcard4@2x.jpg');
                  }
         
                  @media (-webkit-min-device-pixel-ratio: 2),
                  (min-resolution: 192dpi),
                  (min-resolution: 2dppx) {
                      .content-list-title {
-                         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                                 rgba(46, 47, 66, 0.7)), url('../images/app.jpg');
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/meditation@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/online@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/payment@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/screen@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/taxi@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/teamcard1@2.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/teamcard2@2x.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/teamcard3@2x.jpg');
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                    rgba(46, 47, 66, 0.7)), url('..images/teamcard4@2x.jpg');
                      }
                  }
     
