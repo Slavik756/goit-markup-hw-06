@@ -260,14 +260,12 @@ img {
    /* width: calc((100% - 72px) / 4);*/
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    background-image: url('../images/background-1x.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
 }
- .content-list-title {
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-             rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
- }
+ 
 
- @media (min-device-pixel-ratio: 2),
+ @media (-webkit-min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
  (min-resolution: 2dppx) {
      .content-list-title {
@@ -862,7 +860,7 @@ img {
                     rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
         }
     
-        @media (min-device-pixel-ratio: 2),
+        @media (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             .content-list-title{
@@ -918,7 +916,7 @@ img {
                              rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
                  }
         
-                 @media (min-device-pixel-ratio: 2),
+                 @media (-webkit-min-device-pixel-ratio: 2),
                  (min-resolution: 192dpi),
                  (min-resolution: 2dppx) {
                      .content-list-title {
