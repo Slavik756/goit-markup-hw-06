@@ -741,16 +741,15 @@ img {
 }
 
 .page-title {
-    font-size: 56px;
+    font-size: 36px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 216px;
     display: block;
-    margin-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-bottom: 72px;
+    margin: 0 auto;
 
 }
 
@@ -846,9 +845,10 @@ img {
     .address-link:focus {
     color: #404bbf;
     }
-    .page-title {
-    max-width: 496px;
-    }
+        .page-title {
+            max-width: 496px;
+            margin-bottom: 48px;
+        }
  }
 
  /* Десктопная версия */
