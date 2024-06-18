@@ -423,12 +423,15 @@ img {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    width: 320px;
+    height: 664px;
 }
 
 
 
 .auxiliary {
-    margin-right: 120px;
+    width: 288px;
+    height: 112px;
 }
 
 .footer-link {
@@ -809,11 +812,7 @@ img {
 }
  
      
-         .footer-cotainer {
-             display: flex;
-             align-items: baseline;
-             flex-direction: column;
-         }
+         
 
 
  /* Планшетная версия */
