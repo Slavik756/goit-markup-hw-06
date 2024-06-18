@@ -407,13 +407,28 @@
           <ul class="portfolio-info">
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  src="./images/app.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <picture>
+                  <source
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    src="./images/app.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                    class="portfolio-img"
+                  />
+                </picture>
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -441,6 +456,7 @@
                     media="(max-width: 767px)"
                   />
                   <img
+                    srcset="./images/payment@2.jpg 1x, ./images/payment.jpg 2x"
                     src="./images/payment.jpg"
                     alt="Cashless Payment"
                     width="360"
@@ -484,6 +500,10 @@
                     media="(max-width: 767px)"
                   />
                   <img
+                    srcset="
+                      ./images/meditation@2.jpg 1x,
+                      ./images/meditation.jpg   2x
+                    "
                     src="./images/meditation.jpg"
                     alt="Meditation App"
                     width="360"
@@ -518,6 +538,7 @@
                     media="(max-width: 767px)"
                   />
                   <img
+                    srcset="./images/taxi@2.jpg 1x, ./images/taxi.jpg 2x"
                     src="./images/taxi.jpg"
                     alt="Taxi Service"
                     width="360"
@@ -552,6 +573,7 @@
                     media="(max-width: 767px)"
                   />
                   <img
+                    srcset="./images/screen@2.jpg 1x, ./images/screen.jpg 2x"
                     src="./images/screen.jpg"
                     alt="Screen Illustrations"
                     width="360"
@@ -586,6 +608,7 @@
                     media="(max-width: 767px)"
                   />
                   <img
+                    srcset="./images/online@2.jpg 1x, ./images/online.jpg 2x"
                     src="./images/online.jpg"
                     alt="Online Courses"
                     width="360"
