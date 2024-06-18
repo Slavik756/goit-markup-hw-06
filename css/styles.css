@@ -217,8 +217,21 @@ img {
         text-align: center;
         color: #2e2f42;
 }
-
-
+.content-subtitle2 {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.content-info2 {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 .content-info {
     font-weight: 400;
         font-size: 16px;
@@ -226,7 +239,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-
+        margin-top: 5px;
 }
 
 .social-list-item {
@@ -241,8 +254,9 @@ img {
 }
 .ul-social {
     display: flex;
-        justify-content: center;
-        gap: 12px;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 8px;
 }
 .foto {
     background-color: #F4F4FD;
