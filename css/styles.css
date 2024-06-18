@@ -894,6 +894,10 @@ img {
     .address-link:focus {
     color: #404bbf;
     }
+        .portfolio-list-item {
+            width: calc((100% - 48px) / 2);
+            /* Приклад для планшета */
+        }
         .page-title {
             max-width: 496px;
             margin-bottom: 48px;
@@ -1083,6 +1087,9 @@ img {
         .page-title {
         max-width: 496px;
         }
+        .portfolio-list-item {
+             width: calc((100% - 48px) / 3);
+        }
         .icon-container {
         display: flex;
         align-items: center;
@@ -1114,9 +1121,7 @@ img {
         text-align: center;
         margin-bottom: 8px;
         }
-        .portfolio-list-item {
-         width: calc((100% - 48px) / 3);
-        }
+        
         
         .form-footer {
         display: flex;
