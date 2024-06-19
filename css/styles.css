@@ -1051,7 +1051,7 @@ img {
 }
 
  /* Десктопная версия */
- @media screen and (min-width: 1158px) {
+ @media screen and (width: 1158px) {
     body {
         font-family: "Roboto", sans-serif;
         color: #434455;
