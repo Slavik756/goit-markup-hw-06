@@ -850,7 +850,7 @@ img {
 
 
  /* Планшетная версия */
- @media screen and (min-width: 768px) and (max-width: 1157px) {
+ @media screen and (min-width: 768px) {
      body {
         font-family: "Roboto", sans-serif;
             color: #434455;
