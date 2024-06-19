@@ -1085,9 +1085,19 @@ img {
             height: 0;
             
         }
+        .p-form-footer {
+            margin-bottom: 16px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+            padding-left: 0px;
+        }
         .auxiliary {
             width: 288px;
             height: 112px;
+            text-align: left;
         }
         .Socialmedia {
             
@@ -1118,6 +1128,8 @@ img {
             background-color: #4D5AE5;
             border: none;
             border-radius: 4px;
+            margin-top: 0px;
+            margin-left: 0px;
         }
         .footer-cotainer {
             display: flex;
@@ -1298,6 +1310,7 @@ img {
         .auxiliary {
             width: 288px;
             height: 112px;
+            text-align: left;
         }
         .Socialmedia {
         
