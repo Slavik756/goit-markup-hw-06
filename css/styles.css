@@ -859,11 +859,13 @@ img {
                  url('path/to/tablet-background@2x.jpg') 2x);
      }
     .header {
-        width: 768px;
-        height: 72px;
+            display: block;
+            unicode-bidi: isolate;
+            width: 768px;
+            height: 72px;
     }
     .container {
-        max-width: 1157px;
+        max-width: 768px;
         padding: 0 16px;
     }
     .icon-container {
@@ -956,8 +958,9 @@ img {
         
         .content-list {
             display: flex;
-            gap: 24px;
-    
+            gap:72px 24px;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
        
                 .background {
@@ -1022,7 +1025,7 @@ img {
         
         }
         .content-main {
-            width: calc((100% - 72px) / 4);
+            width: calc((100% - 24px) / 2);
     
         }
         .content-subtitle {
@@ -1035,14 +1038,25 @@ img {
             text-align: center;
             margin-bottom: 8px;
         }
-                .content-info {
-                    font-size: 16px;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    color: #434455;
-                    text-align: center;
-                    margin-bottom: 8px;
-                }
+        .content-subtitle2 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11111;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            margin-bottom: 8px;
+            text-align: center;
+    
+    
+        }
+        .content-info {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            text-align: center;
+            margin-bottom: 8px;
+        }
 
         .form-footer {
         display: flex;
