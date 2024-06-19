@@ -1078,8 +1078,11 @@ img {
             margin-bottom: 8px;
         }
         .div-form-footer {
-          
             margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+            /* width: 0; */
+            height: 0;
             
         }
         .auxiliary {
@@ -1267,11 +1270,11 @@ img {
         margin-bottom: 8px;
         }
         .div-form-footer {
-            margin-left: auto;
             margin-right: 0;
-            padding: 150px 0;
-            width: 288px;
-            height: 136px;
+            margin-left: 0;
+            padding: 0;
+            width: 0;
+            height: 0;
         }
         .button-form-footer {
             min-width: 165px;
@@ -1288,8 +1291,9 @@ img {
             background-color: #4D5AE5;
             border: none;
             border-radius: 4px;
+            margin-top: 0px;
+            margin-left: 0px;
             
-            margin-left: 60px;
         }
         .auxiliary {
             width: 288px;
