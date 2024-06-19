@@ -360,7 +360,7 @@ img {
 }
 
 .portfolio-info {
-    max-width: 320px;
+  
     
     margin: 0 auto;
     padding: 0 16px;
@@ -1159,19 +1159,37 @@ img {
         background-image: image-set(url('teamcard2@2x 1x') 1x,
         url('teamcard2@2x 1x') 2x);
     }
+        .container {
+            max-width: 1158px;
+            padding: 0 15px;
+        }
         .container-main{
         max-width: 1158px;
         } 
-        .container{
-        max-width: 1158px;
-        padding: 0 15px;
-        }
+        
         .content-list-title {
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
         }
+        .content-list {
+            display: flex;
+            gap: 72px 24px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            border: 1px solid #8e8f99;
+            margin-bottom: 8px;
+        }
+        
                  .background {
                      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                             rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
