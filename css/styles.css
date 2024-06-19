@@ -943,6 +943,12 @@ img {
             max-width: 496px;
             margin-bottom: 48px;
         }
+        .content-list-title {
+            width: calc((100% - 72px) / 2);
+            background-color: #FFFFFF;
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+            border-radius: 0px 0px 4px 4px;
+        }
         .content-list {
             display: flex;
             gap: 24px;
@@ -1128,19 +1134,20 @@ img {
         .page-title {
         max-width: 496px;
         }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            border: 1px solid #8e8f99;
+            margin-bottom: 8px;
+        }
         .portfolio-list-item {
              width: calc((100% - 48px) / 3);
         }
-        .icon-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: #f4f4fd;
-        border-radius: 4px;
-        border: 1px solid #8e8f99;
-        margin-bottom: 8px;
-        }
+        
         .content-main {
             width: calc((100% - 72px) / 4);
         }
@@ -1152,6 +1159,7 @@ img {
                      text-align: center;
                      margin-bottom: 8px;
                  }
+
         .content-subtitle {
         font-weight: 500;
         font-size: 20px;
