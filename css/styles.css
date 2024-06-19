@@ -1186,6 +1186,9 @@ img {
         .container-main{
         max-width: 1158px;
         } 
+        .page {
+            height: 600px;
+        }
         
         .content-list-title {
         background-color: #FFFFFF;
