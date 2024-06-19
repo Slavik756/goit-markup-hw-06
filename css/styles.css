@@ -95,7 +95,7 @@ img {
 }
 .page {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -138,7 +138,7 @@ img {
 }
 
 .content {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .content-list {
@@ -201,12 +201,7 @@ img {
 }
 
 .content-main {
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 8px;
-        width: 288px;
+    
 }
 
 .content-subtitle {
@@ -222,9 +217,11 @@ img {
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
-        margin-left: 30px;
+        margin-bottom: 8px;
+        text-align: center;
+
+        
 }
 .content-info2 {
     font-weight: 500;
@@ -297,7 +294,7 @@ img {
 }
  
 
- .content-list-title {
+ .background {
      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
              rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -323,7 +320,7 @@ img {
  @media (-webkit-min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
  (min-resolution: 2dppx) {
-     .content-list-title {
+     .background {
          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                  rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -944,7 +941,7 @@ img {
     
         }
        
-                .content-list-title {
+                .background {
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                             rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -970,7 +967,7 @@ img {
                 @media (-webkit-min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
-                    .content-list-title {
+                    .background {
                         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                 rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
                         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1050,7 +1047,7 @@ img {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
         }
-                 .content-list-title {
+                 .background {
                      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                             rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1076,7 +1073,7 @@ img {
                  @media (-webkit-min-device-pixel-ratio: 2),
                  (min-resolution: 192dpi),
                  (min-resolution: 2dppx) {
-                     .content-list-title {
+                     .background {
                         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                     rgba(46, 47, 66, 0.7)), url('../images/app@2.jpg');
                             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
