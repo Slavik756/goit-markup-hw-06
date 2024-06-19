@@ -858,8 +858,12 @@ img {
          background-image: image-set(url('path/to/tablet-background@1x.jpg') 1x,
                  url('path/to/tablet-background@2x.jpg') 2x);
      }
+    .header {
+        width: 768px;
+        height: 72px;
+    }
           .container {
-              max-width: 768px;
+              max-width: 1157px;
           }
                 
      
@@ -1103,7 +1107,7 @@ img {
         align-items: baseline;
         }
         .container {
-        width: 1158px;
+        min-width: 1158px;
         padding: 0 15px;
         }
         .logo-link {
