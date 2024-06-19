@@ -455,7 +455,7 @@ img {
     text-align: center;
 }
 .Socialmedia {
-    width: 208px;
+    
     height: 80px;
     padding-top: 75px;
 }
@@ -867,6 +867,9 @@ img {
         max-width: 768px;
         padding: 0 16px;
     }
+    .foto-container {
+    padding: O 108px 0;
+    }
     .icon-container {
         display: none;
         
@@ -1037,6 +1040,10 @@ img {
         row-gap: 48px;
         
         }
+        .portfolio-info {
+            margin: 0 auto;
+            padding: 0 16px;
+        }
         .content-main {
             width: calc((100% - 24px) / 2);
     
@@ -1071,13 +1078,16 @@ img {
             margin-bottom: 8px;
         }
         .div-form-footer {
-            margin-left: auto;
+          
             margin-right: 0;
             
         }
         .auxiliary {
             width: 288px;
             height: 112px;
+        }
+        .Socialmedia {
+            
         }
         .form-footer {
         display: flex;
@@ -1090,10 +1100,34 @@ img {
             max-width: 264px;
             text-align: left;
         }
+        .button-form-footer {
+            min-width: 165px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+            background-color: #4D5AE5;
+            border: none;
+            border-radius: 4px;
+        }
+        .footer-cotainer {
+            display: flex;
+            align-items: baseline;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 72px 24px;
+            padding-left: 108px ;
+        }
 }
 
  /* Десктопная версия */
- @media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
     body {
         font-family: "Roboto", sans-serif;
         color: #434455;
@@ -1169,10 +1203,7 @@ img {
         display: flex;
         align-items: baseline;
         }
-        .container {
-        min-width: 1158px;
-        padding: 0 15px;
-        }
+        
         .nav-list {
         margin-right: 332px;
         }
@@ -1216,14 +1247,14 @@ img {
         .content-main {
             width: calc((100% - 72px) / 4);
         }
-                 .content-info {
-                     font-size: 16px;
-                     line-height: 1.5;
-                     letter-spacing: 0.02em;
-                     color: #434455;
-                     text-align: center;
-                     margin-bottom: 8px;
-                 }
+        .content-info {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            text-align: center;
+            margin-bottom: 8px;
+        }
 
         .content-subtitle {
         font-weight: 500;
@@ -1257,18 +1288,22 @@ img {
             background-color: #4D5AE5;
             border: none;
             border-radius: 4px;
-            margin-top: 15px;
+            
             margin-left: 60px;
         }
         .auxiliary {
             width: 288px;
             height: 112px;
         }
+        .Socialmedia {
         
+        height: auto;
+        padding-top: 75px;
+        }
         .form-footer {
             display: flex;
             gap: 0;
         }
         
- }
+}
  
