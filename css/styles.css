@@ -1102,6 +1102,15 @@ img {
         .Socialmedia {
             
         }
+        .p-footer-title {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+            margin-left: 0px;
+        }
         .form-footer {
         display: flex;
         gap: 24px;
@@ -1313,9 +1322,17 @@ img {
             text-align: left;
         }
         .Socialmedia {
-        
         height: auto;
         padding-top: 75px;
+        }
+        .p-footer-title {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+            margin-left: 0px;
         }
         .form-footer {
             display: flex;
