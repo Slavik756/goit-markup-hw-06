@@ -101,7 +101,6 @@ img {
     background-position: center;
     background-size: cover;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    ;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -879,6 +878,17 @@ img {
     .logo-link {
         margin-right: 120px;
     }
+    .page {
+    background-color: #2e2f42;
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 1440px;
+    margin: 0 auto;
+    }
         .address-cont {
             display: flex;
             gap: 40px;
@@ -1011,7 +1021,9 @@ img {
         
         .foto-list {
         display: flex;
-        gap: 24px;
+            gap: 72px 24px;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
         .portfolio-info {
         display: flex;
@@ -1041,7 +1053,7 @@ img {
             letter-spacing: 0.02em;
             color: #2e2f42;
             margin-bottom: 8px;
-            text-align: center;
+            text-align: left;
     
     
         }
