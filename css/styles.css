@@ -1173,6 +1173,12 @@ img {
         background-image: image-set(url('teamcard2@2x 1x') 1x,
         url('teamcard2@2x 1x') 2x);
     }
+        .header {
+            display: initial;
+            unicode-bidi: initial;
+            width: auto;
+            height: auto;
+        }
         .container {
             max-width: 1158px;
             padding: 0 15px;
@@ -1380,6 +1386,7 @@ img {
             background-color: #2e2f42;
             padding: 100px 0;
             height: 400px;
+                    padding-right: 100px;
         }
         .div-div-form {
             width: 408px;
