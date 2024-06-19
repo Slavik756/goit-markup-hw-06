@@ -496,6 +496,7 @@ img {
 .ul-footer-title {
     display: flex;
     gap: 16px;
+    margin-left: 30px;
 }
 
 .li-footer-title {
@@ -1085,6 +1086,11 @@ img {
             height: 0;
             
         }
+        .ul-footer-title {
+            display: flex;
+            gap: 16px;
+            margin-left: 0px;
+        }
         .p-form-footer {
             margin-bottom: 16px;
             font-weight: 500;
@@ -1333,6 +1339,11 @@ img {
             margin-top: 0px;
             margin-left: 0px;
             
+        }
+        .ul-footer-title {
+            display: flex;
+            gap: 16px;
+            margin-left: 0px;
         }
         .auxiliary {
             width: 288px;
