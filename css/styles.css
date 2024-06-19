@@ -1154,6 +1154,14 @@ img {
             gap: 72px 24px;
             padding-left: 108px ;
         }
+        .footer {
+            background-color: #2e2f42;
+            padding: 100px 0;
+            height: 550px;
+        }
+        .div-div-form {
+            width: 408px;
+        }
 }
 
  /* Десктопная версия */
@@ -1367,6 +1375,13 @@ img {
             display: flex;
             gap: 0;
         }
-        
+        .footer {
+            background-color: #2e2f42;
+            padding: 100px 0;
+            height: 0px;
+        }
+        .div-div-form {
+            width: 408px;
+        }
 }
  
