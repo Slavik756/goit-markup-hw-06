@@ -862,10 +862,14 @@ img {
         width: 768px;
         height: 72px;
     }
-          .container {
-              max-width: 1157px;
-          }
-                
+    .container {
+        max-width: 1157px;
+        padding: 0 16px;
+    }
+    .icon-container {
+        display: none;
+        
+    }
      
     .open-menu-btn {
         display: none;
