@@ -22,7 +22,7 @@ ul {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -1074,12 +1074,13 @@ img {
             line-height: 1.5;
             color: #F4F4FD;
             letter-spacing: 0.02em;
-            max-width: 264px
+            max-width: 264px;
+            text-align: left;
         }
 }
 
  /* Десктопная версия */
- @media screen and (width: 1158px) {
+ @media screen and (min-width: 1158px) {
     body {
         font-family: "Roboto", sans-serif;
         color: #434455;
@@ -1087,7 +1088,14 @@ img {
         background-image: image-set(url('teamcard2@2x 1x') 1x,
         url('teamcard2@2x 1x') 2x);
     }
-       
+        .container-main{
+        max-width: 1158px;
+        } 
+        .container{
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
         .content-list-title {
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
