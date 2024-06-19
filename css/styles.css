@@ -893,6 +893,11 @@ img {
             display: flex;
             gap: 40px;
         }
+        .menu  {
+             display: flex;
+             gap: 40px;
+             margin-right: 121px;
+         }
         .nav-link {
             color: #2e2f42;
             font-size: 16px;
@@ -1159,6 +1164,9 @@ img {
         .container {
         min-width: 1158px;
         padding: 0 15px;
+        }
+        .nav-list {
+        margin-right: 332px;
         }
         .logo-link {
         margin-right: 76px;
