@@ -965,7 +965,7 @@ img {
         padding: 0 16px;
     }
     .container-main-footer {
-        max-width: 768px;
+        max-width: 580px;
         padding: 0 16px;
         
     }
@@ -1380,7 +1380,7 @@ img {
         align-items: baseline;
         }
         .container-main-footer {
-            max-width: 1158px;
+            max-width: 980px;
             padding: 0 16px;
            
         }
