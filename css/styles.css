@@ -548,8 +548,7 @@ img {
 
 
 .auxiliary {
-    width: 288px;
-    height: 112px;
+    
     text-align: center;
    
 }
@@ -645,8 +644,7 @@ img {
 }
 
 .div-form-footer {
-    
-    margin-right: 0;
+  
     
 }
 
@@ -972,7 +970,7 @@ img {
         
     }
     .foto-container {
-    padding: O 108px 0;
+    
     width: 584px;
     }
     .icon-container {
@@ -1195,11 +1193,7 @@ img {
             margin-bottom: 8px;
         }
         .div-form-footer {
-            margin-right: 0;
-            margin-left: 0;
-            padding: 0;
-            /* width: 0; */
-            height: 0;
+            
             
         }
         .ul-footer-title {
