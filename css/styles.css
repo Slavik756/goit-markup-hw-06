@@ -458,7 +458,13 @@ img {
     margin-bottom: 72px;
 }
 
-
+.portfolio-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 72px;
+}
 
 
 .portfolio-list-title {
