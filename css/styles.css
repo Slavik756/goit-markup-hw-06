@@ -443,8 +443,8 @@ img {
  }
 
 .portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .portfolio-title {
@@ -543,8 +543,6 @@ img {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-   
-    height: 664px;
 }
 
 
@@ -553,7 +551,7 @@ img {
     width: 288px;
     height: 112px;
     text-align: center;
-    margin-bottom: 70px;
+   
 }
 .Socialmedia {
     margin-bottom: 60px;
@@ -963,8 +961,6 @@ img {
     .header {
             display: block;
             unicode-bidi: isolate;
-            width: 768px;
-            height: 72px;
     }
     .container {
         max-width: 768px;
@@ -1064,6 +1060,10 @@ img {
     .address-link:focus {
     color: #404bbf;
     }
+        .portfolio {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
         .portfolio-list-item {
             width: calc((100% - 48px) / 2);
             /* Приклад для планшета */
@@ -1158,7 +1158,7 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        
+        flex-direction: row;
         }
        
         .content-main {
@@ -1217,8 +1217,7 @@ img {
             padding-left: 0px;
         }
         .auxiliary {
-            width: 288px;
-            height: 112px;
+           
             text-align: left;
         }
         .Socialmedia {
@@ -1306,7 +1305,10 @@ img {
         .page {
             padding: 188px 0;
         }
-        
+        .portfolio {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
         .content-list-title {
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);

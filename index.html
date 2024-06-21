@@ -224,6 +224,7 @@
                 srcset="./images/teamcard1@2.jpg 1x, ./images/teamcard1.jpg 2x"
                 src="./images/teamcard1.jpg"
                 alt="Product Designer"
+                width="264"
               />
 
               <div class="div-social">
@@ -266,6 +267,7 @@
                 srcset="./images/teamcard2@2x.jpg 1x, ./images/teamcard2.jpg 2x"
                 src="./images/teamcard2.jpg"
                 alt="Frontend Developer"
+                width="264"
               />
 
               <div class="div-social">
@@ -309,6 +311,7 @@
                 srcset="./images/teamcard3@2x.jpg 1x, ./images/teamcard3.jpg 2x"
                 src="./images/teamcard3.jpg"
                 alt="Marketing"
+                width="264"
               />
 
               <div class="div-social">
@@ -352,6 +355,7 @@
                 srcset="./images/teamcard4@2x.jpg 1x, ./images/teamcard4.jpg 2x"
                 src="./images/teamcard4.jpg"
                 alt="UI Designer"
+                width="264"
               />
 
               <div class="div-social">
@@ -397,12 +401,32 @@
           <ul class="portfolio-info">
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  class="background"
-                  srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
-                  src="./images/app.jpg"
-                  alt="Banking App"
-                />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/app.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
 
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -417,12 +441,32 @@
             </li>
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  class="background"
-                  srcset="./images/payment@2.jpg 1x, ./images/payment.jpg 2x"
-                  src="./images/payment.jpg"
-                  alt="Cashless Payment"
-                />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/payment@2.jpg 1x, ./images/payment.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/payment@2.jpg 1x, ./images/payment.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/payment@2.jpg 1x, ./images/payment.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/payment.jpg"
+                    alt="Cashless Payment"
+                    width="360"
+                  />
+                </picture>
 
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -437,15 +481,41 @@
             </li>
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  class="background"
-                  srcset="
-                    ./images/meditation@2.jpg 1x,
-                    ./images/meditation.jpg   2x
-                  "
-                  src="./images/meditation.jpg"
-                  alt="Meditation App"
-                />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/meditation@2.jpg 1x,
+                      ./images/meditation.jpg   2x
+                    "
+                    type="image/jpg"
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/meditation@2.jpg 1x,
+                      ./images/meditation.jpg   2x
+                    "
+                    type="image/jpg"
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/meditation@2.jpg 1x,
+                      ./images/meditation.jpg   2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/meditation.jpg"
+                    alt="Meditation App"
+                    width="360"
+                  />
+                </picture>
 
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -460,12 +530,32 @@
             </li>
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  class="background"
-                  srcset="./images/taxi@2.jpg 1x, ./images/taxi.jpg 2x"
-                  src="./images/taxi.jpg"
-                  alt="Taxi Service"
-                />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/taxi@2.jpg 1x, ./images/taxi.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/taxi@2.jpg 1x, ./images/taxi.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/taxi@2.jpg 1x, ./images/taxi.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/taxi.jpg"
+                    alt="Taxi Service"
+                    width="360"
+                  />
+                </picture>
 
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -480,12 +570,32 @@
             </li>
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  class="background"
-                  srcset="./images/screen@2.jpg 1x, ./images/screen.jpg 2x"
-                  src="./images/screen.jpg"
-                  alt="Screen Illustrations"
-                />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/screen@2.jpg 1x, ./images/screen.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/screen@2.jpg 1x, ./images/screen.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/screen@2.jpg 1x, ./images/screen.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/screen.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                  />
+                </picture>
 
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -500,12 +610,32 @@
             </li>
             <li class="portfolio-list-item">
               <div class="div-portfolio">
-                <img
-                  class="background"
-                  srcset="./images/online@2.jpg 1x, ./images/online.jpg 2x"
-                  src="./images/online.jpg"
-                  alt="Online Courses"
-                />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/online@2.jpg 1x, ./images/online.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/online@2.jpg 1x, ./images/online.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/online@2.jpg 1x, ./images/online.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    class="card-img"
+                    src="./images/online.jpg"
+                    alt="Online Courses"
+                    width="360"
+                  />
+                </picture>
 
                 <p class="p-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
